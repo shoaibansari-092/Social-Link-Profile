@@ -1,0 +1,45 @@
+body{
+    background: hsl(0, 0%, 8%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: hsl(0, 0%, 12%);
+    height: 570px;
+    width: 350px;
+    margin: 75px 0px 0px 560px;
+    border-radius: 15px;
+    display: grid;
+}
+.profile-pic img{
+    height: 70px;
+    margin-top: 50px;
+    margin-left: 40%;
+    border-radius: 50%;
+}
+.name h2{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.location h3{
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+    margin-top: -10px;
+}
+.location h5{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+.links label{
+    display: grid;
+    height: 25px;
+    width: 280px;
+    color: white;
+    text-align: center;
+    margin: 10px 25px;
+    padding: 11px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:hsl(0, 0%, 20%);
+}
